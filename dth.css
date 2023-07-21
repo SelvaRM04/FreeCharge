@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgba(255, 255, 255, 0.742);
+  overflow-x: hidden;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 2px solid;
+  width: 40em;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.p1 .btn, .p2 .btn, .p3 .btn, .p4 .btn, .p5 .btn, .p6 .btn, .p7 .btn, .p8 .btn, .p9 .btn {
+  margin: 20px 0px 20px 0px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 13px;
+  background-color: #ef0c0c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.p1 .btn:hover, .p2 .btn:hover, .p3 .btn:hover, .p4 .btn:hover, .p5 .btn:hover, .p6 .btn:hover, .p7 .btn:hover, .p8 .btn:hover, .p9 .btn:hover {
+  cursor: pointer;
+}
+
+.cont-des {
+  margin: 30px 80px 0px 50px;
+}
+
+.cont-des .tt {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.cont-des .tt span {
+  color: rgba(46, 207, 207, 0.571);
+  font-style: italic;
+}
+
+.cont-des .image {
+  margin-left: 15em;
+}
+
+.prov {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prov div {
+  margin-left: 10px;
+  -webkit-transition: -webkit-transform 0.9s;
+  transition: -webkit-transform 0.9s;
+  transition: transform 0.9s;
+  transition: transform 0.9s, -webkit-transform 0.9s;
+}
+
+.details input {
+  padding: 10px 20px 10px 30px;
+  border-radius: 10px;
+}
+
+.details label {
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.submit {
+  font-weight: 900;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 70px;
+  background-color: #077117;
+  color: #fff;
+}
+
+.prov div:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.p1 span, .p2 span, .p3 span, .p4 span, .p5 span, .p6 span, .p7 span, .p8 span, .p9 span {
+  font-style: italic;
+  font-weight: lighter;
+  color: aquamarine;
+}
+/*# sourceMappingURL=dth.css.map */

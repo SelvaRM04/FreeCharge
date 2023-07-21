@@ -1,0 +1,179 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgba(255, 255, 255, 0.742);
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#selected-plan {
+  padding: 10px 20px 10px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.title {
+  margin: 30px 80px 0px 50px;
+  padding: 20px 0px 0px 20px;
+}
+
+.title .tt {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.title .tt span {
+  color: rgba(46, 207, 207, 0.571);
+  font-style: italic;
+}
+
+.title label {
+  font-size: large;
+  font-weight: bold;
+}
+
+.title .rmn {
+  margin: 8px 0px 0px 0px;
+  padding: 8px 25px;
+  border: 2px solid rgba(0, 0, 0, 0.292);
+  border-radius: 4px;
+}
+
+.prov {
+  margin-top: 40px;
+}
+
+.airtel, .jio, .Vifibre, .Asia, .sty {
+  border: 2px solid rgba(206, 22, 22, 0.868);
+  padding: 30px 0px 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 0.9s;
+  transition: -webkit-transform 0.9s;
+  transition: transform 0.9s;
+  transition: transform 0.9s, -webkit-transform 0.9s;
+}
+
+.airtel:hover, .jio:hover, .Vifibre:hover, .Asia:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(96, 91, 91, 0.221);
+}
+
+.select-plans {
+  padding-left: 9em;
+}
+
+.select-plans .c1, .select-plans .c2, .select-plans .c3, .select-plans .c4, .select-plans .c5, .select-plans .c6 {
+  border: 2px solid black;
+  border: none;
+  -webkit-box-shadow: 2px 4px 10px #bbced6;
+          box-shadow: 2px 4px 10px #bbced6;
+  margin: 30px;
+  height: 20em;
+  padding-left: 80px;
+  border-radius: 20px;
+  background-color: rgba(53, 128, 193, 0.779);
+}
+
+.select-plans .c1 h1 span, .select-plans .c2 h1 span, .select-plans .c3 h1 span, .select-plans .c4 h1 span, .select-plans .c5 h1 span, .select-plans .c6 h1 span {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.select-plans .c1 p, .select-plans .c2 p, .select-plans .c3 p, .select-plans .c4 p, .select-plans .c5 p, .select-plans .c6 p {
+  margin-top: 11px;
+}
+
+.c1 h3, .c2 h3, .c3 h3, .c4 h3, .c5 h3, .c6 h3 {
+  padding: 10px 10px;
+  display: inline-block;
+  border: 2px solid black;
+  border: none;
+  background-color: #bd8968;
+  border-radius: 20px;
+}
+
+.c1 div, .c2 div, .c3 div, .c4 div, .c5 div, .c6 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 div .des, .c2 div .des, .c3 div .des, .c4 div .des, .c5 div .des, .c6 div .des {
+  font-style: italic;
+  margin: 15px 40px;
+}
+
+.c1 div .time, .c2 div .time, .c3 div .time, .c4 div .time, .c5 div .time, .c6 div .time {
+  font-style: italic;
+}
+
+.c1 div p span, .c2 div p span, .c3 div p span, .c4 div p span, .c5 div p span, .c6 div p span {
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.c1 .btn, .c2 .btn, .c3 .btn, .c4 .btn, .c5 .btn, .c6 .btn {
+  font-weight: 900;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 25px;
+  background-color: #0b066f;
+  color: #fff;
+}
+
+.submit {
+  font-weight: 900;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 70px;
+  background-color: #077117;
+  color: #fff;
+}
+
+.image {
+  margin-left: 20em;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.mystyle {
+  border: 2px solid rgba(9, 215, 71, 0.868);
+  padding: 30px 0px 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 0.9s;
+  transition: -webkit-transform 0.9s;
+  transition: transform 0.9s;
+  transition: transform 0.9s, -webkit-transform 0.9s;
+}
+
+.mystyle:hover, .sty:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(96, 91, 91, 0.221);
+}
+/*# sourceMappingURL=broadband.css.map */

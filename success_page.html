@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<div>, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a3c8f3c756.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ordered Successfully!!</title>
+    <link rel="stylesheet" href="success_page.css" />
+  </head>
+  <body style="height: auto">
+    <div class="success_container" id="success_container">
+      <div class="success_content">
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          vitae commodi debitis culpa eius nam aut maiores, assumenda cupiditate
+          perferendis, corrupti quo! Odit.
+        </h2>
+        <img src="img1.jpg" width="1200" height="500" /> <br />
+        <a href="#" onclick="toggle()" id="readmore">Read More </a>
+      </div>
+    </div>
+
+    <div class="popup">
+      <div class="icon">
+        <i
+          class="fa-solid fa-circle-check"
+          style="font-size: 45px; color: forestgreen"
+        ></i>
+      </div>
+      <div class="title">Success!! <br></div> 
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+        quis dignissimos quae fugiat iure, doloribus ex impedit recusandae
+        laudantium quasi eos dolores! 
+      </div>
+      <div class="dismiss-btn">
+        <button id="dismiss-popup-btn">Dismiss</button>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function toggle() {
+        var blur = document.getElementById("success_container");
+        blur.className = "success_containerblur";
+        function popup() {
+          document.getElementsByClassName("popup")[0].classList.add("active");
+        }
+        popup();
+      }
+
+      document.getElementById("dismiss-popup-btn").addEventListener("click", function () {
+        document.getElementsByClassName("popup")[0].classList.remove("active");
+          var remblur = document.getElementById("success_container");
+          remblur.className = "success_container";
+        });
+    </script>
+  </body>
+</html>

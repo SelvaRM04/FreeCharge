@@ -1,0 +1,93 @@
+body {
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgba(255, 255, 255, 0.742);
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  margin-top: 60px;
+}
+
+.cont-des {
+  margin: 30px 80px 0px 50px;
+}
+
+.cont-des .tt {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.cont-des .tt span {
+  color: rgba(46, 207, 207, 0.571);
+  font-style: italic;
+}
+
+.cont-des .btn-1 {
+  padding: 6px 20px;
+  border-radius: 10px;
+  background-color: rgba(25, 68, 207, 0.801);
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+}
+
+.mob-num, .selector, #selected-plan {
+  padding: 10px 20px 10px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.cls-num, .cls-opt {
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.plans {
+  margin-left: 10px;
+  width: 600px;
+}
+
+.plans .slt {
+  font-size: xx-large;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border: 2px solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.p1 .btn, .p2 .btn, .p3 .btn, .p4 .btn, .p5 .btn, .p6 .btn, .p7 .btn, .p8 .btn, .p9 .btn {
+  margin: 20px 0px 20px 0px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 13px;
+  background-color: #ef0c0c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.p1 .btn:hover, .p2 .btn:hover, .p3 .btn:hover, .p4 .btn:hover, .p5 .btn:hover, .p6 .btn:hover, .p7 .btn:hover, .p8 .btn:hover, .p9 .btn:hover {
+  cursor: pointer;
+}
+
+img {
+  height: 100px;
+}
+/*# sourceMappingURL=rc.css.map */
