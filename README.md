@@ -5,12 +5,12 @@ This project is a payment website user interface prototype. It provides a simula
 
 ## Table of Contents
 
-- [Website Preview](#website_preview)
+- [Preview](#website_preview)
 - [Installation](#installation)
 - [Features](#features)
 - [Contact](#Contact)
 
-## Website Preview
+## Preview
 Home Page
 
 <img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Homepage.png" alt="Sample Screenshot" width="600"/>
@@ -63,4 +63,4 @@ To run this project locally using XAMPP, follow these steps:
 
 Feel free to contact me via email at selvarathinammurugesan@email.com or connect with me on [LinkedIn](https://www.linkedin.com/in/selvarathinam-m).
 
-[Website Preview](#website_preview)
+[Website Preview](#preview)
