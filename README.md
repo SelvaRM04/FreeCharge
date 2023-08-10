@@ -11,9 +11,10 @@ This project is a payment website user interface prototype. It provides a simula
 
 ## Website Preview
 Home Page
+
 <img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Homepage.png" alt="Sample Screenshot" width="600"/>
-<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Homepage2.png" alt="Sample Screenshot" width="600"/>
-<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Homepage3.png" alt="Sample Screenshot" width="600"/>
+<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/HomePage2.png" alt="Sample Screenshot" width="600"/>
+
 
 ## Installation
 
