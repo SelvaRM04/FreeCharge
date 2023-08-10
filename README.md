@@ -5,7 +5,7 @@ This project is a payment website user interface prototype. It provides a simula
 
 ## Table of Contents
 
-- [Website Preview](#websitepreview)
+- [Website Preview](#website_preview)
 - [Installation](#installation)
 - [Features](#features)
 - [Contact](#Contact)
