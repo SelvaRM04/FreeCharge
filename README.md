@@ -9,6 +9,8 @@ This project is a payment website user interface prototype. It provides a simula
 - [Features](#features)
 - [Contact](#Contact)
 
+## Website Preview
+[HomePage](https://github.com/SelvaRM04/FreeCharge/blob/master/Homepage.png)
   
 ## Installation
 
