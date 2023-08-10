@@ -16,6 +16,23 @@ Home Page
 <img src="https://github.com/SelvaRM04/FreeCharge/blob/master/HomePage2.png" alt="Sample Screenshot" width="600"/>
 <img src="https://github.com/SelvaRM04/FreeCharge/blob/master/HomePage3.png" alt="Sample Screenshot" width="600"/>
 
+Registration
+
+<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Registration.png" alt="Sample Screenshot" width="600"/>
+
+Login
+
+<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Login.png" alt="Sample Screenshot" width="600"/>
+
+Recharge
+
+<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Recharge.png" alt="Sample Screenshot" width="600"/>
+
+Payment
+
+<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Payment.png" alt="Sample Screenshot" width="600"/>
+
+
 ## Installation
 
 To run this project locally using XAMPP, follow these steps:
