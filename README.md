@@ -5,7 +5,7 @@ This project is a payment website user interface prototype. It provides a simula
 
 ## Table of Contents
 
-- [Preview](#website_preview)
+- [Preview](#preview)
 - [Installation](#installation)
 - [Features](#features)
 - [Contact](#Contact)
@@ -62,5 +62,3 @@ To run this project locally using XAMPP, follow these steps:
 ## Contact
 
 Feel free to contact me via email at selvarathinammurugesan@email.com or connect with me on [LinkedIn](https://www.linkedin.com/in/selvarathinam-m).
-
-[Website Preview](#preview)
