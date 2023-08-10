@@ -1,4 +1,4 @@
-# FreeCharge 
+![image](https://github.com/SelvaRM04/FreeCharge/assets/98843759/ef283dbb-0d50-4e90-9faa-d9f1c4db2ceb)# FreeCharge 
 # Online Payment Website
 This project is a payment website user interface prototype. It provides a simulated experience of a payment platform without processing real transactions. It's built to showcase the user interface and interaction design.
 
@@ -23,6 +23,7 @@ Registration
 Login
 
 <img src="https://github.com/SelvaRM04/FreeCharge/blob/master/Login.png" alt="Sample Screenshot" width="600"/>
+<img src="https://github.com/SelvaRM04/FreeCharge/blob/master/AfterLogin.png" alt="Sample Screenshot" width="600"/>
 
 Recharge
 
